@@ -1,6 +1,6 @@
 package warmup1;
 
-public class sleepIn {
+public class SleepIn {
     public boolean sleepIn(boolean weekday, boolean vacation) {
         if (vacation) {
             return true;

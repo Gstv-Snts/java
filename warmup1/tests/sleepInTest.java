@@ -4,13 +4,13 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import warmup1.sleepIn;
+import warmup1.SleepIn;
 
-public class sleepInTest {
+public class SleepInTest {
 
     @Test
     public void sleepIn() {
-        var sleepIn = new sleepIn();
+        var sleepIn = new SleepIn();
         assertEquals(true, sleepIn.sleepIn(true, true));
         assertEquals(true, sleepIn.sleepIn(false, true));
         assertEquals(true, sleepIn.sleepIn(false, false));

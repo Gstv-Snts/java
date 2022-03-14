@@ -1,6 +1,6 @@
 package warmup1;
 
-public class monkeyTrouble {
+public class SonkeyTrouble {
     public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
         if (aSmile && bSmile) {
             return true;
