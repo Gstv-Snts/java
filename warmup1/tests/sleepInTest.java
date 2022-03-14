@@ -1,18 +1,19 @@
-package warmup1.sleepIn;
+package warmup1.tests;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+import warmup1.sleepIn;
+
 public class sleepInTest {
 
     @Test
-    public void areWeSleeping() {
+    public void sleepIn() {
         var sleepIn = new sleepIn();
-        assertEquals(true, sleepIn.areWeSleeping(true, true));
-        assertEquals(true, sleepIn.areWeSleeping(false, true));
-        assertEquals(true, sleepIn.areWeSleeping(false, false));
-        assertEquals(false, sleepIn.areWeSleeping(true, false));
-
+        assertEquals(true, sleepIn.sleepIn(true, true));
+        assertEquals(true, sleepIn.sleepIn(false, true));
+        assertEquals(true, sleepIn.sleepIn(false, false));
+        assertEquals(false, sleepIn.sleepIn(true, false));
     }
 }
