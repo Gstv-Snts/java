@@ -10,8 +10,8 @@ public class monkeyTroubleTest {
     @Test
     public void monkeyTroubleTest() {
         var monkeyTrouble = new monkeyTrouble();
-        assertEquals(true, monkeyTrouble.monkeyTrouble(true, false));
-        assertEquals(false, monkeyTrouble.monkeyTrouble(true, true));
-        assertEquals(false, monkeyTrouble.monkeyTrouble(false, false));
+        assertEquals(false, monkeyTrouble.monkeyTrouble(true, false));
+        assertEquals(true, monkeyTrouble.monkeyTrouble(true, true));
+        assertEquals(true, monkeyTrouble.monkeyTrouble(false, false));
     }
 }
