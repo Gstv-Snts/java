@@ -14,5 +14,4 @@ public class PosNeg {
             return false;
         }
     }
-
 }
