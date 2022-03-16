@@ -8,5 +8,4 @@ public class HasTeen {
             return false;
         }
     }
-
 }
