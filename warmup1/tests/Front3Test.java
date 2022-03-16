@@ -8,7 +8,7 @@ import warmup1.Front3;
 
 public class Front3Test {
     @Test
-    public void Front3Test() {
+    public void front3Test() {
         var front3 = new Front3();
         assertEquals("JavJavJav", front3.front3("Java"));
         assertEquals("ChoChoCho", front3.front3("Chocolate"));

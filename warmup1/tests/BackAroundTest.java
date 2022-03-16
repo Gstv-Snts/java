@@ -8,7 +8,7 @@ import warmup1.BackAround;
 
 public class BackAroundTest {
     @Test
-    public void BackAroundTest() {
+    public void backAroundTest() {
         var backAround = new BackAround();
         assertEquals("tcatt", backAround.backAround("cat"));
         assertEquals("oHelloo", backAround.backAround("Hello"));
