@@ -15,7 +15,8 @@ pipeline {
     }
     stage('Build'){
       steps{
-        sh 'javac -cp "/lib/junit-4.13.2.jar" ./warmup1/tests/Diff21Test.java'
+        sh 'cd lib/ ; wget https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.7.0/junit-platform-console-standalone-1.7.0-all.jar'
+        sh 'cd .. ; javac -cp "../lib/junit-platform-console-standalone-1.7.0-all.jar" CarTest.java Car.java App.java'
       }
     }
     stage('Test'){
