@@ -3,7 +3,6 @@ pipeline {
   stages {
     stage('Checkout Code') {
       steps {
-        cleanWs()
         git(url: 'https://github.com/Gstv-Snts/java.git', branch: 'main')
       }
     }
