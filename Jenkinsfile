@@ -14,6 +14,7 @@ pipeline {
     }
     stage('Test'){
       steps{
+        ls -la
         sh 'java -jar /lib/junit-4.13.2.jar -cp "warmup1/tests/" --scan-classpath --reports-dir="reports"'
       }
     }
