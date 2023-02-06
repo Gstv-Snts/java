@@ -7,16 +7,9 @@ pipeline {
         git(url: 'https://github.com/Gstv-Snts/java.git', branch: 'main')
       }
     }
-
-    stage('ls') {
-      steps {
-        sh 'ls -la'
-      }
-    }
     stage('Build'){
       steps{
         sh 'cd lib/ ; wget https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.7.0/junit-platform-console-standalone-1.7.0-all.jar'
-        //sh 'cd .. ; javac -cp "./lib/junit-platform-console-standalone-1.7.0-all.jar" CarTest.java Car.java App.java'
         sh 'ls -la'
       }
     }
